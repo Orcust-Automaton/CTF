@@ -1,0 +1,10 @@
+#! /bin/bash
+
+if [ $# -eq 1 ];
+then
+    mkdir z 
+    mv $1* z 
+    mv z $1
+else
+    echo "Input name"
+fi
